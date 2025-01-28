@@ -57,7 +57,8 @@ header p {
 /* Introduction Section */
 .intro {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 20px; /* Space between text and image */
     margin-bottom: 40px;
 }
 
@@ -68,13 +69,17 @@ header p {
 
 .intro-image {
     flex: 1;
+    display: flex;
+    justify-content: center; /* Centers the image within its container */
+    align-items: center;
 }
 
 .intro-image img {
-    max-width: 100%;
-    border-radius: 0px;
-    box-shadow: none;
-    background-color: #ffffff;
+    max-width: 100%; /* Ensures the image doesn't overflow its container */
+    height: auto; /* Maintains aspect ratio */
+    width: 250px; /* Scales the image to 250px width */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
 }
 
 .intro-text p {
