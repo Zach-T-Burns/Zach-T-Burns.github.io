@@ -77,8 +77,8 @@ header p {
 .intro-image img {
     max-width: 100%; /* Ensures the image doesn't overflow its container */
     height: auto; /* Maintains aspect ratio */
-    width: 250px; /* Scales the image to 250px width */
-    border-radius: 10px; /* Optional: Rounded corners */
+    width: 180px; /* Scales the image to 250px width */
+    border-radius: 0; /* Optional: Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
 }
 
